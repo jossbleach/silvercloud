@@ -1,0 +1,50 @@
+$primary : #D6D6D6
+$secondary : #54ace2
+$black : #25252b
+
+.navigation
+  margin: 0
+  width: 100%
+  background:
+    color: $black
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 13
+.largeNav
+  height: 140px
+  transition: all 0.5s ease-in-out
+.smallNav
+  height: 90px
+  transition: all 0.5s ease-in-out
+.navigation-ul
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 20px
+.navigation-li
+  display: inline-block
+  padding: 0 30px
+#navigation-li-text
+  color: $primary
+  transition: color 0.2s ease-in-out
+  &:hover
+    color: $secondary
+    text-decoration: none
+    transition: color 0.2s ease-in-out
+.large
+  height: 100px
+  width: 150px
+  background:
+    image: url('../img/nav-logo-lg.svg')
+    repeat: no-repeat
+    position: center
+  transition: all 0.5s ease-in-out
+.small
+  height: 50px
+  width: 50px
+  background:
+    image: url('../img/nav-logo-sm.svg')
+    repeat: no-repeat
+    position: center
+  transition: all 0.5s ease-in-out
